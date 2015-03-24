@@ -1,4 +1,6 @@
 import webbrowser
+
+
 class Movie():
     def __init__(self, title, synopsis, poster_image_url, trailer_youtube_url):
         self.title = title
@@ -8,6 +10,3 @@ class Movie():
 
     def show_trailer(self):
         webbrowser.open(self.trailerUrl)
-
-
-
